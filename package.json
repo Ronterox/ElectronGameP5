@@ -1,0 +1,14 @@
+{
+	"name": "electron-app",
+	"version": "1.0.0",
+	"main": "main.js",
+	"author": "Ronterox",
+	"license": "MIT",
+	"description": "",
+	"scripts": {
+		"start": "electron ."
+	},
+	"devDependencies": {
+		"electron": "^24.2.0"
+	}
+}

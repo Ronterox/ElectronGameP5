@@ -1,0 +1,25 @@
+.input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.item-list {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.item {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: flex;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}

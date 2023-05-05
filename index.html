@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Hello Honey!</title>
+	</head>
+	<body>
+		<form id="itemForm" class="input">
+			<div class="form-group">
+				<label class="form-label" for="add-input">Topic</label>
+				<input class="form-input" type="text" name="add-input" placeholder="I have to..." />
+				<button class="btn">Add Topic</button>
+			</div>
+			Looking into <span id="selected-item"></span> topic...
+		</form>
+		<div id="item-list"></div>
+		<script src="renderer.js"></script>
+	</body>
+</html>
